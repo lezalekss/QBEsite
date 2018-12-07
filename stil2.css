@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("slike/pozadina1-100.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-position: fixed;
+
+}
+
+
+#wrap{
+    margin:5% 29% 15% 29%;  
+    background:#06062B;
+    border: 2px solid #06062B;
+    border-radius: 25px;
+}
+#log{
+    max-width: auto;
+    color:rgb(173, 173, 173);
+    margin-left:20%;
+    margin-top:3%;
+    
+}
+input[type=text]{
+    margin-left: 6%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+input[type=email]{
+    margin-left: 16.4%;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+#ime{
+    margin-right:-1.7%;
+}
+input[type=submit], [type=reset]{
+    margin-top:4%;
+    margin-left:8%;
+}
+
+#avatari{
+    padding:4%;
+}

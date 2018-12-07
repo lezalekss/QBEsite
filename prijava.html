@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Prijava | QBE</title>
+  <link rel="shortcut icon" type="image/x-icon" href="slike/qbe2.ico" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stil2.css">
+  <link rel="stylesheet" type="text/css" href="menufooterstil.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/js.js">  </script>
+  <script src="js/jquery.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="slike/logo.png" width="60" height="60"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavBar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html" >Pocetna</a></li>
+          <li><a href="oNama.html">O nama</a></li>
+          <li><a href="https://qbeeurope.com/news-and-events/blog-articles/"  target="blank">Blog</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="wrap"  >
+        <div id="log" >
+
+                <h3 style="margin-left:5%;"  class="uvod">Popunite podatke o sebi:</h3>
+                <div id="avatari"><img src="slike/avatar1.png" alt="Avatar" class="avatar1" >
+                <img src="slike/avatar2.png" alt="Avatar" class="avatar2" ></div>
+                <form name="registracija" action="index.html" onsubmit="validacija()"   method="get" >
+                  <div id="podaci">
+                      <label id="ime">Ime i prezime:</label> <input type="text" name="imeiprezime" placeholder="Petar Petrovic" required ><br />
+                      <label >E-mail: </label><input type="email" name="e-mail" placeholder="peca997@gmail.com" required><br />
+                      <label >Broj telefona:</label><input type="text" name="telefon" placeholder="061-122-23-94" req><br />
+                      <br/>   <label style="margin-right:5%;">Pol: </label> 
+                      <input class="muski" type="radio"  name="pol" value="Muškarac">Muški
+                      <input  class= "zenski" type="radio" name="pol" value="Devojka">Ženski<br />
+                      <br/>
+                    </div>
+                   <label >Pozicija za koju se prijavljujete:</label>   <br/> 
+                 
+                  <input type="checkbox" name="Pojmovi" value="marketing">Marketing menadzment<br />
+                  <input type="checkbox" name="Pojmovi" value="dizajner">Dizajner<br /> 
+                  <input type="checkbox" name="Pojmovi" value="frontend">Front-end programer<br />
+                  <br/>
+                   <label>Uploadujte vaš CV</label><br/><input type="file"  name="fileupload" value="fileupload" id="fileupload"> 
+                   <br/><br/>
+                  <label >Zašto baš QBE, a ne druga agencija?</label>   <br/>
+                  <textarea rows="10%"  cols="40%" style="color:black;" style="text-align: center;">
+                  Napišite podatke o sebi.
+                  </textarea>
+                  <br/>
+                  <input type="submit" class="btn btn-primary btn-lg" value="POTVRDI" >
+                  <input type="reset" class="btn btn-primary btn-lg" value="RESETUJ">
+
+              </form>
+              <br/>
+
+          </div>
+  </div>
+  <footer>
+     
+      <div class="futer">
+          <h2 class="copyright">© 2018 QBE All Rights Reserved.</h2>
+          <div class="row">
+            <div class="col-sm-4">
+                <div class="card" >
+                    <div class="card-body">
+                      <h4 >Lokacija</h4>
+                      <p class="card-text">Jove Ilića 55 <br/> ,11040 Beograd</p>
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" >
+                    <h4 >Kontaktirajte nas</h4>
+                    <div class="card-body">
+                      <p class="card-text">belgradeoffice@qbe.com<br/> (+381)011-252-200</p>
+                    
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card" >
+                      <h4 >Društvene mreže</h4>
+                      <div class="card-body">
+                          <p class="card-text"><a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                            <a href="https://www.instagram.com/gospodin_kjub" class="fa fa-instagram"></a></p>
+                        
+                      </div>
+                    </div>
+                </div>
+          </div>
+          
+        </div>
+     </footer>
+</body>
+</html>

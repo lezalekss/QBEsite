@@ -1,0 +1,87 @@
+
+  body{
+    font-family: 'Microsoft YaHei';
+  }
+.navbar {
+    padding: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #06062b;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-family: 'Impact' !important;
+  }
+
+  .navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+  }
+  .navbar-brand>img {
+    height: 120%;
+    padding: 0px;
+    width: auto;
+  }
+  .navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: white;
+    background-color: #06062b;
+  }
+  .navbar-inverse .navbar-nav li a {
+      color: #d5d5d5;
+  }
+  footer {
+    
+    text-align: center;
+    filter:Alpha(opacity=60);
+    opacity:1;
+    padding: 2%;
+    color: white;
+    background-color: #06062b;
+    margin: 0% auto;
+    margin-top:5%;
+    max-height: auto;
+    font-family: 'Segoe print'  !important;
+}
+.fa{
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+}
+.copyright {
+    padding-bottom:3%;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 45px;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Impact' !important;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    background-image: linear-gradient(45deg, 
+                      #7794ff, 
+                      #44107A,
+                      #FF1361,
+                      #FFF800);
+    animation: .8s shake infinite alternate;
+  }
+  
+  @keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+  }
+  

@@ -1,0 +1,63 @@
+
+
+  body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(slike/pozadina.jpg);
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+    }
+
+    .sadrzaj{
+        margin:3%;
+        margin-top:5%;
+        margin-bottom:8%; 
+        letter-spacing:2px; line-height: 1.8;
+        color:rgb(221, 221, 221);
+        padding-top: 5%;
+        padding-bottom:5%;
+        background-color: #06062b;
+        width: auto;
+        height: 40%;
+        font-size: 115%;
+        border: 2px solid #06062B;
+        border-radius: 25px;
+    }
+  .card{
+    position: relative;
+    margin-left:14%;
+  }
+.card-img-top {
+    
+    position: relative;
+    width: 140%;
+    border-radius: 50%;
+    
+    transition: 1s;
+    margin:auto;
+}
+.card-img-top:hover{
+    transform: scale(1.2);
+}
+.card-naslov{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin-left:30%;
+}
+.card-tekst{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+#btn1 {
+    margin:5%;
+    margin-left:32%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        margin-left: 20%;
+    }
+}
+

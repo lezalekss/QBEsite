@@ -1,0 +1,108 @@
+#frontimg {
+  background: url("slike/portfolio.jpg");
+  padding: 120px;
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+  text-align: center;
+  font-size: 72px;
+}
+#portfolio{
+  margin-right:15px;
+}
+
+body{
+  background-image: linear-gradient(to bottom ,white, rgb(231, 231, 231),white);
+}
+.column {
+float: left;
+width: 50%;
+padding: 0px;
+color: white;
+text-align: center;
+font-size: 69px;
+position: relative;
+max-width: auto;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+#vizija {
+padding: 20px;
+color: white;
+background-color: #06062b;
+}
+.box img, .box1 img, .box2 img{
+  float:left;
+width: 20%;
+height: 16%;
+padding: 5px;
+}
+.container{
+width: 100%;
+overflow: auto;
+
+}
+
+.col{
+float: left;
+}
+
+.full-image img, .full-image1 img, .full-image2 img {
+width:100%;
+height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .column{
+      float: none;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 62px;
+      position: relative;
+      max-width: auto;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width:1000px){
+  .column {
+      margin-left: 20%;
+      float: none;
+      width: 63.33%;
+      padding: 0px;
+      color: white;
+      text-align: center;
+      font-size: 62px;
+      position: relative;
+      max-width: auto;
+    }
+}
+
+h1{
+  margin-top:30%;
+  text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 36px;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-size: 120% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+    background-image: linear-gradient(45deg, 
+                      #7794ff, 
+                      #44107A,
+                      #FF1361,
+                      #FFF800);
+}
+

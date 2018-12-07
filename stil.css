@@ -1,0 +1,96 @@
+
+#qbe{
+    margin:auto;
+}
+.jumbotron {
+    margin: 0;
+    background: url(slike/main.jpg);
+    background-size: cover;
+    color: white;
+}
+#icon {
+    max-width: 100%;
+    margin-top:-10% ;
+}
+.container{
+    margin: 4% auto;
+}
+#vizija {
+    padding: 20px;
+    color: white;
+    background-color: #06062b;
+    margin: 0% auto;
+}
+.card-img-top {
+    max-width: 250px;
+}
+.copyright{
+    padding-bottom: 40px;
+}
+.usluge{
+    margin: 2%;
+    position: relative;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    color: white;
+    text-align: center;
+    font-size: 61px;
+    position: relative;
+    max-width: auto;
+  }
+  @media only screen and (max-width: 600px) {
+    .column {
+        margin-left: 20%;
+        float: none;
+        width: 63.33%;
+        padding: 0px;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        max-width: auto;
+      }
+}
+@media only screen and (min-width: 600px) and (max-width:1000px){
+    .column {
+        margin-left: 20%;
+        float: none;
+        width: 63.33%;
+        padding: 0px;
+        color: white;
+        text-align: center;
+        font-size: 62px;
+        position: relative;
+        max-width: auto;
+      }
+}
+
+.zoom{
+
+    transition: 0.7s;
+    margin:auto;
+}
+
+.zoom:hover{
+    transform : scale(1.6); /* Chrome, Opera 15+, Safari 3.1+ */
+}
+
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #uslike{
+      max-width:100%;
+  }
